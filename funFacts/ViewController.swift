@@ -9,9 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+    let factbook=FactBook()
+    @IBAction func showFunFact(sender: UIButton)
+    {
+        println("PRESSED")
+        funFactLabel.text=factbook.getRandomFact()
+}
+    @IBOutlet weak var funFactLabel: UILabel!
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
+        funFactLabel.text=factbook.getRandomFact()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

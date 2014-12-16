@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A785E7F1A3B1ACD00D798A1 /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A785E7E1A3B1ACD00D798A1 /* FactBook.swift */; };
 		7A9220731A39B2030051A556 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9220721A39B2030051A556 /* AppDelegate.swift */; };
 		7A9220751A39B2030051A556 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9220741A39B2030051A556 /* ViewController.swift */; };
 		7A9220781A39B2030051A556 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A9220761A39B2030051A556 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A785E7E1A3B1ACD00D798A1 /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
 		7A92206D1A39B2030051A556 /* funFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = funFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9220711A39B2030051A556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A9220721A39B2030051A556 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +38,7 @@
 		7A9220821A39B2030051A556 /* funFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = funFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9220871A39B2030051A556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A9220881A39B2030051A556 /* funFactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = funFactsTests.swift; sourceTree = "<group>"; };
+		7A9220921A39B3780051A556 /* Scratchpad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Scratchpad.playground; path = funFacts/Scratchpad.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +80,10 @@
 		7A92206F1A39B2030051A556 /* funFacts */ = {
 			isa = PBXGroup;
 			children = (
+				7A9220931A39B3830051A556 /* playgrounds */,
 				7A9220721A39B2030051A556 /* AppDelegate.swift */,
 				7A9220741A39B2030051A556 /* ViewController.swift */,
+				7A785E7E1A3B1ACD00D798A1 /* FactBook.swift */,
 				7A9220761A39B2030051A556 /* Main.storyboard */,
 				7A9220791A39B2030051A556 /* Images.xcassets */,
 				7A92207B1A39B2030051A556 /* LaunchScreen.xib */,
@@ -110,6 +115,15 @@
 				7A9220871A39B2030051A556 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A9220931A39B3830051A556 /* playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				7A9220921A39B3780051A556 /* Scratchpad.playground */,
+			);
+			name = playgrounds;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A785E7F1A3B1ACD00D798A1 /* FactBook.swift in Sources */,
 				7A9220751A39B2030051A556 /* ViewController.swift in Sources */,
 				7A9220731A39B2030051A556 /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +420,7 @@
 				7A92208E1A39B2030051A556 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A92208F1A39B2030051A556 /* Build configuration list for PBXNativeTarget "funFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +429,7 @@
 				7A9220911A39B2030051A556 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
